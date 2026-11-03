@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Esquema: Gestión de proyectos TI</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#F4F1FF;--ink:#23235B;--card:#fff;--p:#6C4DF6;--pl:#EDE9FF;--t:#00A6A6;--tl:#DDF4F4;--o:#FF7A59;--ol:#FFE8E1;--mut:#5b5b80}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15152e;--ink:#ECEBFF;--card:#1f1f40;--pl:#2a2560;--tl:#0f3a3d;--ol:#4a2a24;--mut:#a9a9d0}}
+:root[data-theme="dark"]{--bg:#15152e;--ink:#ECEBFF;--card:#1f1f40;--pl:#2a2560;--tl:#0f3a3d;--ol:#4a2a24;--mut:#a9a9d0}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Poppins","Segoe UI",system-ui,sans-serif;line-height:1.45}
+.w{max-width:1040px;margin:0 auto;padding:20px 16px 40px}
+.hero{background:linear-gradient(135deg,#2B2D6E,#6C4DF6 60%,#00A6A6);color:#fff;border-radius:28px;padding:34px 30px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;background:rgba(255,255,255,.12)}
+.hero h1{margin:6px 0 10px;font-size:clamp(1.6rem,4vw,2.5rem);line-height:1.15}
+.hero small{display:block;opacity:.92}
+.tag{display:inline-block;background:rgba(255,255,255,.2);padding:4px 12px;border-radius:99px;font-size:.78rem;font-weight:600}
+.step{display:flex;align-items:center;gap:10px;margin:30px 0 12px;font-weight:700;font-size:1.25rem}
+.num{width:38px;height:38px;border-radius:50%;background:var(--o);color:#fff;display:grid;place-items:center;font-weight:700;flex:none}
+.g{display:grid;gap:14px}.g2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}.g5{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.c{background:var(--card);border-radius:20px;padding:18px;box-shadow:0 4px 14px rgba(40,30,120,.08)}
+.c h3{margin:0 0 6px;font-size:1rem}.c p,.c li{margin:0;font-size:.88rem;color:var(--mut)}.c ul{margin:6px 0 0;padding-left:18px}
+.pl{background:var(--pl);border-left:6px solid var(--p)}.ej{background:var(--tl);border-left:6px solid var(--t)}.er{background:var(--ol);border-left:6px solid var(--o)}
+.col{border-radius:24px;padding:18px}.col>h2{margin:0 0 12px;font-size:1.15rem}
+.pc{background:var(--pl)}.ec{background:var(--tl)}
+.arrow{text-align:center;font-size:1.6rem;color:var(--p);margin:6px 0}
+.b{font-weight:700;color:var(--ink)}
+.kpi{font-size:1.6rem;font-weight:700;color:var(--o)}
+table{width:100%;border-collapse:collapse;font-size:.85rem}th,td{padding:9px 10px;text-align:left;border-bottom:1px solid rgba(120,110,200,.25);vertical-align:top}th{background:var(--pl)}
+.scroll{overflow-x:auto;border-radius:16px;background:var(--card);box-shadow:0 4px 14px rgba(40,30,120,.08)}
+.refs{font-size:.8rem;color:var(--mut)}.refs p{margin:0 0 8px;padding-left:22px;text-indent:-22px}
+</style></head><body><div class="w">
+<div class="hero"><span class="tag">NRC-70119 · Electiva CPC: Gerencia de Proyectos TI</span>
+<h1>Esquema sobre planificación y ejecución de proyectos TI</h1>
+<small><b>Harold Castro Torres</b> · Universidad UNIMINUTO · 2026</small>
+<small>Docente: Mónica María Gutiérrez Giraldo · Entrega: 2 de noviembre de 2026</small></div>
+
+<div class="step"><span class="num">1</span>Preguntas orientadoras</div>
+<div class="g g2">
+<div class="c pl"><h3>¿Cómo garantizar que el gerente TI aplique las metodologías?</h3><ul><li>Gobierno de proyectos: política y metodología definidas según el tipo de proyecto</li><li>Controles: PMO, hitos y aprobaciones por fase</li><li>Formación, mentoría y lecciones aprendidas</li></ul></div>
+<div class="c ej"><h3>¿Por qué importa la planificación estratégica?</h3><ul><li>Alinea el proyecto con los objetivos de la organización</li><li>Permite priorizar y decidir con criterio ante cambios</li><li>Anticipa riesgos y asigna recursos de forma realista</li></ul></div></div>
+
+<div class="step"><span class="num">2</span>Identificación de la situación</div>
+<div class="c"><h3>Conceptos clave</h3><p>Un proyecto TI es un esfuerzo temporal que crea un resultado único; se gestiona equilibrando alcance, tiempo, costo y calidad. Planificar define el qué, el cómo y el cuándo; ejecutar convierte el plan en trabajo real, con control.</p></div>
+<div class="g g2" style="margin-top:14px">
+<div class="c er"><h3>Caso 1 · Healthcare.gov (2013)</h3><p>Lanzamiento con fallas visibles el 1 de octubre de 2013.</p><ul><li>Contrato adjudicado antes de estabilizar requisitos</li><li>Fecha de lanzamiento por encima de la calidad</li><li>Pruebas tardías, sin verificar desempeño</li><li>Supervisión débil y autoridad confusa</li></ul></div>
+<div class="c er"><h3>Caso 2 · Aeropuerto de Denver (1993-1995)</h3><p>Apertura aplazada de octubre de 1993 a febrero de 1995.</p><ul><li>Cambio tardío a un sistema de equipajes automatizado</li><li>Cambios de alcance y diseño durante la obra</li><li>Costo del sistema de 195 a más de 290 millones USD</li><li>Respaldo convencional de unos 51 millones USD</li></ul></div></div>
+
+<div class="step"><span class="num">3</span>Elaboración del esquema</div>
+<div class="g g2">
+<div class="col pc"><h2>Planificación</h2><div class="g">
+<div class="c"><h3>1.1 Definición de objetivos</h3><p>Qué se logra y cómo se mide.</p></div>
+<div class="c"><h3>1.2 Alcance</h3><p>Qué entra y qué no; requisitos estables.</p></div>
+<div class="c"><h3>1.3 Recursos</h3><p>Personas, tecnología, presupuesto y capacidad.</p></div>
+<div class="c"><h3>1.4 Cronograma</h3><p>Secuencia, duraciones y tiempo real de pruebas.</p></div>
+<div class="c"><h3>1.5 Riesgos</h3><p>Identificar, valorar y planear respuestas.</p></div></div></div>
+<div class="col ec"><h2>Ejecución</h2><div class="g">
+<div class="c"><h3>2.1 Asignación de tareas</h3><p>Responsables y criterios de terminado.</p></div>
+<div class="c"><h3>2.2 Seguimiento y control</h3><p>Real vs. línea base; acciones correctivas.</p></div>
+<div class="c"><h3>2.3 Gestión de cambios</h3><p>Evaluar, aprobar y documentar cada cambio.</p></div>
+<div class="c"><h3>2.4 Comunicación</h3><p>Información veraz y oportuna a todos.</p></div>
+<div class="c"><h3>2.5 Resolución de problemas</h3><p>Escalamiento y planes de contingencia.</p></div></div></div></div>
+<div class="arrow">▼</div>
+<div class="scroll"><table><tr><th>Error frecuente</th><th>Healthcare.gov</th><th>Denver</th><th>Medida preventiva</th></tr>
+<tr><td class="b">Requisitos inestables</td><td>Adjudicación antes de cerrarlos</td><td>Cambios de alcance y diseño</td><td>Congelar requisitos y control formal de cambios</td></tr>
+<tr><td class="b">Fecha manda</td><td>Lanzamiento forzado</td><td>Apertura en riesgo</td><td>Cronograma desde el esfuerzo estimado</td></tr>
+<tr><td class="b">Pruebas insuficientes</td><td>Sin verificar desempeño</td><td>Fallas en pruebas</td><td>Pruebas de integración y carga; go/no-go</td></tr>
+<tr><td class="b">Gobierno débil</td><td>Autoridad confusa</td><td>Decisión tardía de tecnología</td><td>Roles claros y aprobaciones por fase</td></tr>
+<tr><td class="b">Riesgos mal gestionados</td><td>Capacidad subestimada</td><td>Sin respaldo temprano</td><td>Registro de riesgos y plan de contingencia</td></tr></table></div>
+
+<div class="step"><span class="num">4</span>Conclusiones y recomendaciones</div>
+<div class="g g2"><div class="c pl"><h3>Conclusiones</h3><p>Los fracasos fueron una cadena de decisiones de gestión, no solo fallas técnicas. Un plan débil se paga en la ejecución, y la ejecución sin control vuelve inútil un buen plan.</p></div>
+<div class="c ej"><h3>Recomendaciones</h3><ul><li>Estabilizar requisitos antes de contratar</li><li>Reservar tiempo real para pruebas</li><li>Mantener un registro de riesgos vivo</li><li>Gobierno con puntos de decisión medibles</li><li>Comunicar con transparencia y registrar lecciones</li></ul></div></div>
+
+<div class="step"><span class="num">5</span>Referencias (APA)</div>
+<div class="c refs">
+<p>Baca Urbina, G. (2015). Capítulo 1. Elementos conceptuales de los proyectos de sistemas de información. En <i>Proyectos de sistemas de información</i> (pp. 29-51). Grupo Editorial Patria.</p>
+<p>Uribe Becerra, Á. M. (2021). Capítulo 3. Conceptos para un proceso metodológico. En <i>Formulación del proyecto de diseño en sistemas sociales complejos</i> (pp. 49-68). Programa Editorial Universidad del Valle.</p>
+</div>
+</div></body></html>
